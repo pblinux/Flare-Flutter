@@ -143,7 +143,7 @@ abstract class FlutterStroke {
       ..strokeWidth = stroke.width
       ..strokeCap = FlutterStroke.getStrokeCap(stroke.cap)
       ..strokeJoin = FlutterStroke.getStrokeJoin(stroke.join)
-      ..isAntiAlias = false;;
+      ..isAntiAlias = false;
     onPaintUpdated(_paint);
   }
 
